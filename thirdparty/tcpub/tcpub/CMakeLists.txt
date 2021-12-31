@@ -11,6 +11,7 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 find_package(Threads REQUIRED)
 find_package(asio REQUIRED)
+find_package(steinwurf REQUIRED)
 
 # Public API include directory
 set (includes

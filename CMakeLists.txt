@@ -28,6 +28,7 @@ list(APPEND CMAKE_MODULE_PATH
 
 project(eCAL)
 set(ECAL_PROJECT_ROOT "${CMAKE_CURRENT_LIST_DIR}")
+include(${CMAKE_BINARY_DIR}/conan_paths.cmake)
 
 # --------------------------------------------------------
 # command line build options
